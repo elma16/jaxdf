@@ -52,8 +52,8 @@ packages = [
 [tool.poetry.dependencies]
 python = "^3.9"
 plum-dispatch = "^2.5.2"
-jax = "^0.4.20"
-equinox = "^0.11.2"
+jax    = "^0.6.1"
+equinox = ">=0.12.0,<0.14.0"
 
 [tool.poetry.group.dev.dependencies]
 coverage = "^7.3.2"
